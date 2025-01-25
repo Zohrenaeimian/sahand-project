@@ -1,12 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rhodium+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section id="topbar">
+        <div class="container">
+          <div class="nav">
+            <div class="currencies">
+              <div class="block_currencies">
+                <a href="#">CURRENCY</a>
+              </div>
+              <div class="dropdown-button">
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">
+                      <img
+                        src="images/currencies_img_USD_2x.png"
+                        alt=""
+                        width="16"
+                        height="11"
+                      />
+                      USD</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="images/currencies_img_EUR_2x.png"
+                        alt=""
+                        width="16"
+                        height="11"
+                      />
+                      EUR</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="images/currencies_img_AUD_2x.png"
+                        alt=""
+                        width="16"
+                        height="11"
+                      />
+                      AUD</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="images/currencies_img_GBP_2x.png"
+                        alt=""
+                        width="16"
+                        height="11"
+                      />
+                      GBP</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="images/currencies_img_JPY_2x.png"
+                        alt=""
+                        width="16"
+                        height="11"
+                      />
+                      JPY</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="header_user_info">
+              <ul class="link">
+                <li>
+                  <a href="#" title="MY Account">MY ACCOUNT</a>
+                </li>
+                <li>
+                  <a href="#" title="Wishlist">WISHLIST</a>
+                </li>
+                <li>
+                  <a href="#" title="Shopping Cart">CHECKOUT</a>
+                </li>
+                <li>
+                  <a href="#" title="Log in">LOGIN</a>
+                </li>
+                <li>
+                  <a href="#" title="Register">REGISTER</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="header-main">
+        <div class="container">
+          <div class="header-wrap">
+            <div class="header-logo">
+              <img src="images/logo_2x.webp" alt="" />
+            </div>
+
+            <div class="header-search">
+              <form>
+                <input placeholder="search ..." type="text" />
+                <button>
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+
+            <div class="header-shop-cart">
+              <div class="shoping-icon">
+                <img src="images/icon_minicart2.webp" alt="" />
+              </div>
+              <div class="shoping-text">
+                <p class="shoping-text-title">SHOPPING CART</p>
+                <p class="shoping-text-sub">0 item - $0.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Header-down">
+        <div class="container">
+          <div class="header-down-nav">
+            <div class="header-category">
+              <span>CATEGORIES</span>
+            </div>
+            <div class="header-nav-menu">
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">THEME FEATURES</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="slider">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="images/slideshow_image_1_2x.webp" style="width: 100%" />
+            <div class="text text-right">
+              <span class="text_first" style="color: #666666">INTRODUCING</span>
+              <h3 style="color: #f44336">AUTUMN COLLECTION 2015</h3>
+              <p style="color: #ffffff">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, non velit.
+              </p>
+              <a class="btn btn-slide" href="#">VIEW COLLECTION</a>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/slideshow_image_2_2x.webp" style="width: 100%" />
+            <div class="text text-left">
+              <span class="text_first" style="color: #666666">INTRODUCING</span>
+              <h3 style="color: #f44336">AUTUMN COLLECTION 2015</h3>
+              <p style="color: #666666">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, non velit.
+              </p>
+              <a class="btn btn-slide" href="#">VIEW COLLECTION</a>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/slideshow_image_3_2x.webp" style="width: 100%" />
+            <div class="text text-left">
+              <span class="text_first" style="color: #666666">INTRODUCING</span>
+              <h3 style="color: #f44336">AUTUMN COLLECTION 2015</h3>
+              <p style="color: #666666">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, non velit.
+              </p>
+              <a class="btn btn-slide" href="#">VIEW COLLECTION</a>
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="js/home.js"></script>
+  </body>
 </html>

@@ -1,0 +1,316 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Poppins", serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #f44336;
+  color: #fff;
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#topbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nav {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+}
+.link li {
+  padding: 0px 10px;
+  font-weight: 300;
+}
+.link :hover {
+  color: #222;
+}
+
+.block_currencies {
+  font-size: 11px;
+  padding: 10px 10px;
+  background-color: #0000001a;
+}
+.block_currencies a {
+  position: relative;
+}
+.block_currencies a::after {
+  content: "\f107";
+  font-family: FontAwesome;
+  margin-left: 5px;
+}
+
+.header_user_info {
+  font-size: 10px;
+  padding: 10px;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0;
+}
+.header-logo {
+  width: 25%;
+}
+
+.header-search {
+  width: 50%;
+  padding-right: 20px;
+}
+.header-search form {
+  width: 100%;
+  display: flex;
+}
+.header-search input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #555;
+  border: none;
+  outline: none;
+}
+.header-search input::placeholder {
+  color: #555;
+  opacity: 0.5; /* Firefox */
+}
+.header-search button {
+  width: 45px;
+  height: 42px;
+  background: #222;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+}
+
+.header-search button i {
+  font-size: 13px;
+  line-height: 40px;
+}
+.header-shop-cart {
+  width: 20%;
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  align-items: center;
+}
+.shoping-icon {
+  margin-right: 13px;
+}
+.shoping-text-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.shoping-text-sub {
+  font-weight: 300;
+  font-size: 11px;
+}
+.currencies {
+  position: relative;
+}
+
+.dropdown-button {
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  top: 100%;
+  right: auto;
+  z-index: 1000;
+  color: #000;
+  min-width: 160px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.dropdown-menu li a {
+  padding: 0 10px;
+}
+.currencies:hover .dropdown-button {
+  visibility: visible;
+}
+
+#Header-down {
+  background-color: #fff;
+  color: #000;
+}
+.header-down-nav {
+  display: flex;
+}
+.header-category {
+  margin: 10px;
+  background-color: #000;
+  color: #fff;
+  width: 25%;
+  padding: 12px 30px 10px;
+  letter-spacing: 0px;
+  border: 0px none;
+  font-family: Rhodium Libre;
+}
+.header-category span {
+  /* position: relative; */
+  font-family: Rhodium Libre;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 22px;
+}
+.header-nav-menu {
+  width: 100%;
+}
+.header-nav-menu ul {
+  display: flex;
+}
+.header-nav-menu li {
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+
+.header-nav-menu li a {
+  padding-left: 18px;
+  position: relative;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  line-height: 64px;
+  padding: 0px 18px;
+}
