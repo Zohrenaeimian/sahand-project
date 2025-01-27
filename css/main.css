@@ -208,7 +208,7 @@ header {
 }
 .header-search input::placeholder {
   color: #555;
-  opacity: 0.5; /* Firefox */
+  opacity: 0.5; 
 }
 .header-search button {
   width: 45px;
@@ -262,7 +262,11 @@ header {
 
 .dropdown-menu li a {
   padding: 0 10px;
+  line-height: 30px;
+  font-weight: 300;
+  font-size: 12px;
 }
+
 .currencies:hover .dropdown-button {
   visibility: visible;
 }
@@ -276,13 +280,14 @@ header {
 }
 .header-category {
   margin: 10px;
-  background-color: #000;
+  background-color: #222;
   color: #fff;
-  width: 25%;
+  width: 32%;
   padding: 12px 30px 10px;
   letter-spacing: 0px;
   border: 0px none;
   font-family: Rhodium Libre;
+  cursor: pointer;
 }
 .header-category span {
   /* position: relative; */
@@ -295,6 +300,8 @@ header {
 }
 .header-nav-menu {
   width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header-nav-menu ul {
   display: flex;
@@ -304,13 +311,76 @@ header {
   border-right: 1px solid #e6e6e6;
 }
 
-.header-nav-menu li a {
-  padding-left: 18px;
-  position: relative;
+/* .header-nav-menu li a {
+  padding : relative;
+  padding: 0 18px;
   font-size: 12px;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: #000;
   font-weight: 500;
   line-height: 64px;
-  padding: 0px 18px;
+} */
+
+.caret{
+  padding : relative;
+  padding: 0 30px 0 18px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
+  line-height: 64px;
+}
+
+
+.header-category ::after {
+  content: "\f107";
+  font-family: FontAwesome;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.caret ::after{
+  content: "\f107";
+  font-family: FontAwesome;
+  position: absolute;
+  margin-left: 5px;
+} 
+
+/* .text_first {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 3px;
+  line-height: 30px;
+  margin:  80px 20px 20px;
+} */
+
+.menu-home {
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  right: auto;
+  z-index: 1000;
+  color: #000;
+  position: absolute;
+  min-width: 160px;
+  display: block; 
+  
+}
+
+/* .dropdown-menu-home{
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  right: auto;
+  z-index: 1000;
+  color: #000;
+  position: absolute;
+  min-width: 160px;
+  visibility: hidden;
+  display: block;
+
+} */
+
+
+.menu-home :hover .dropdown-menu-home{
+  visibility: visible;
 }
