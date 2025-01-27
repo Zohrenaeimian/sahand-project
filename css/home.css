@@ -140,3 +140,90 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+#product-top{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.product-top-header{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-top: 3px solid #f44336;
+  padding: 20px;
+}
+
+.product-top-header h4{
+  position: relative;
+    
+    font-family: Rhodium Libre;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    
+    color: #f44336;
+    
+    line-height: normal;
+}
+
+
+
+
+.product-slider{
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 100px;
+}
+.slider-items{
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.slider-item{
+  min-width: 25%;
+  box-sizing: border-box;
+  text-align: left;
+  position: relative;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 15px 15px 20px;
+  border: solid 1px #e6e6e6;;
+}
+
+.slider-item img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.slider-item h5{
+  text-transform: none;
+  margin: 5px 0;
+  padding: 0;
+  height: 40px;
+  overflow: hidden;
+}
+.slider-item a{
+  color: #000;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.slider-item span{
+  color: #f44336;
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 13px;
+    padding: 0;
+}
+
+.prev-btn{
+  font-family: Material-Design-Iconic-Font;
+}
