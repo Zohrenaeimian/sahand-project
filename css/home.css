@@ -175,7 +175,6 @@
 .product-slider{
   overflow: hidden;
   position: relative;
-  margin-bottom: 100px;
 }
 .slider-items{
   position: relative;
@@ -324,4 +323,80 @@
 .slider-item:hover .product-hover{
   visibility: visible;
   bottom: 0;
+}
+
+#fashion-clothing{
+  margin-top: 30px;
+}
+
+.category-tab{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+.product-menu{
+  width: 16.66667%;
+  padding: 0 30px;
+  border-top: solid 3px #f54337;
+}
+.product-menu-title h3{
+    margin: 0;
+    padding: 24px 0 20px;
+    font-family: Rhodium Libre;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f54337;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    text-transform: uppercase;
+}
+.product-menu-nav{
+  margin: 0;
+    padding: 10px 0;
+    border: 0px;
+    
+}
+.product-menu-nav li{
+  margin: 0;
+  padding: 0;
+  border: 0px;
+  width: 100%;
+}
+.product-menu-nav li a{
+
+    padding: 10px 0;
+    display: block;
+    font-size: 13px;
+    background: transparent;
+    border: 0px;
+    color: #999;
+    line-height: 20px;
+}
+.active-menu{
+  color: #000!important;
+  background: transparent;
+  
+  
+}
+.product-list{
+  width: 83.33333%;
+}
+.product-list .product-slide{
+  width: 2916px;
+  left: 0px;
+  display: block;
+  transition: 1000ms;
+  transform: translate3d(0px, 0px, 0px);
+}
+.product-list .slider-item{
+  width: 243px;
+  height: auto!important;
+}
+.product-banner{
+  display: flex;
+}
+
+.product-banner a{
+  width: 50%;
 }

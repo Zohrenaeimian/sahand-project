@@ -11,7 +11,7 @@ function updateSliderPosition() {
 }
 
 nextBtn.addEventListener("click", () => {
-  if (currentIndex < slider_item.length - 4) {
+  if (currentIndex < slider_item.length - 9) {
     currentIndex++;
   } else {
     currentIndex = 0;
@@ -23,7 +23,7 @@ prevBtn.addEventListener("click", () => {
   if (currentIndex > 0) {
     currentIndex--;
   } else {
-    currentIndex = slider_item.length - 4;
+    currentIndex = slider_item.length - 9;
   }
   updateSliderPosition();
 });
