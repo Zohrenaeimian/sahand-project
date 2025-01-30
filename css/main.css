@@ -384,3 +384,61 @@ header {
 /* .menu-home :hover .dropdown-menu-home{
   visibility: visible;
 } */
+
+footer{
+  background-color: #fff;
+  color: #000;
+  margin-top: 30px;
+  
+}
+
+.blog{
+  width: 50%;
+  margin-top: 30px;
+  border-right: 1px solid #e6e6e6 ;
+  padding-right: 20px;
+}
+
+.blog h3{
+  font-size: 14px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+.blog p{
+  padding-bottom: 45px;
+  line-height:1.5;
+}
+
+.footer-section1{
+  display: flex;
+  padding: 0 15px;
+}
+.twitter{
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+.twitter h3{
+  padding: 20px 0;
+
+}
+.twitter a{
+  font-size: 12px;
+}
+
+#newsletter-footer{
+  background-color:#222;
+  color: #fff;
+  padding: 15px 0 ;
+}
+
+.email-input input{
+  background-color: #fff;
+  color: #fff;
+  padding: 8px 60px 8px;
+  width: 50%;
+}
+.email-input form{
+  display: flex;
+  
+}
