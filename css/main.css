@@ -434,14 +434,16 @@ footer {
 }
 
 .email-input {
-  background: #fff;
+  
   width: 50%;
+  padding: 0 15px;
 }
 
 .email-input input {
-  width: 100%;
+  width: 72%;
   border: none;
   outline: none;
+  height: 42px;
 }
 
 .email-input ::placeholder{
@@ -454,6 +456,7 @@ footer {
   display: flex;
   align-items: center;
   width: 100%;
+  background: #fff;
 
 }
 
@@ -466,7 +469,7 @@ footer {
 }
 
 .email-input i {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 40px;
 }
 
@@ -496,14 +499,19 @@ footer {
   font-size: 14px;
   color: #fff;
   padding: 3px 10px 0;
+  font-family: 'Rhodium Libre', sans-serif;
+  font-weight: 400;
 }
 
 .social-icon {
   display: flex;
   list-style: none;
   padding: 0;
+  
 }
-
+.social-icon li{
+  margin: 2px;
+}
 
 .social-icon a {
   display: flex;
@@ -513,11 +521,49 @@ footer {
   height: 30px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color:#fff;
-  font-size: 14px;
+  font-size: 12px;
   transition: 0.3s;
 }
 
 .social-icon a:hover {
   background: white;
   color: black;
+}
+
+
+.footer-section3{
+  padding: 50px 0 0 ;
+  display: flex;
+  
+}
+
+.footer-section3 li a {
+  color: #666;
+  font-weight: 300;
+  line-height: 34px;
+  font-size: 13px;
+  
+  
+}
+
+.footer-section3 h4{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Rhodium Libre', sans-serif;
+  padding-bottom: 10px;
+}
+
+.footer-section3 p{
+  color: #666;
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 12px;
+}
+.title-block{
+  padding: 0 15px;
+  width: 20%;
+}
+.about{
+  padding: 15px 0;
+  line-height: 25px;
 }
